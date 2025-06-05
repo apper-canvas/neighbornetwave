@@ -362,8 +362,8 @@ function Home() {
         return <PlaceholderSection title="Document Center" description="Access important society documents, meeting minutes, and official records securely." icon="FileText" />
       case 'polls':
         return <PlaceholderSection title="Community Polls" description="Participate in society decisions through digital voting and surveys." icon="BarChart3" />
-      default:
-        return <MainFeature posts={posts} setPosts={setPosts} loading={loading} error={error} />
+default:
+        return <CommunityFeed posts={posts} setPosts={setPosts} loading={loading} error={error} />
     }
   }
 
