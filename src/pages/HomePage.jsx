@@ -1,13 +1,12 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { toast } from 'react-toastify'
-import MainFeature from '../components/MainFeature'
+import CommunityFeed from '../components/organisms/CommunityFeed'
 import ApperIcon from '../components/ApperIcon'
 import * as postService from '../services/api/postService'
 import * as noticeService from '../services/api/noticeService'
 import * as eventService from '../services/api/eventService'
 import * as complaintService from '../services/api/complaintService'
-
 const Sidebar = ({ activeSection, setActiveSection }) => {
   const navigation = [
     { id: 'home', label: 'Home', icon: 'Home', functional: true },
@@ -179,13 +178,13 @@ function Home() {
     }
     loadData()
   }, [])
-
-  const renderContent = () => {
+const renderContent = () => {
     switch (activeSection) {
       case 'home':
         return (
-          <MainFeature 
+          <CommunityFeed 
             posts={posts}
+            setPosts={setPosts}
             setPosts={setPosts}
             loading={loading}
             error={error}
@@ -357,14 +356,14 @@ function Home() {
       case 'visitors':
         return <PlaceholderSection title="Visitor Management" description="Digital visitor tracking and pre-approval system. Enhanced security for your community." icon="UserCheck" />
       case 'finance':
-        return <PlaceholderSection title="Financial Portal" description="Track dues, expenses, and society finances. View reports and manage payments online." icon="DollarSign" />
-      case 'documents':
+case 'documents':
         return <PlaceholderSection title="Document Center" description="Access important society documents, meeting minutes, and official records securely." icon="FileText" />
-case 'polls':
+      case 'polls':
         return <PlaceholderSection title="Community Polls" description="Participate in society decisions through digital voting and surveys." icon="BarChart3" />
       default:
-        return <MainFeature posts={posts} setPosts={setPosts} loading={loading} error={error} />
+        return <CommunityFeed posts={posts} setPosts={setPosts} loading={loading} error={error} />
     }
+  }
   }
 
   return (
