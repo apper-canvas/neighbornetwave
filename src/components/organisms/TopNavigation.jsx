@@ -5,13 +5,23 @@ import { Text } from '../atoms/Text'
 import { AppIconAvatar, Avatar } from '../molecules/Avatar'
 import { SearchInput } from '../molecules/SearchInput'
 
-export const TopNavigation = () => {
+export const TopNavigation = ({ isOpen, onToggle }) => {
   return (
     <header className="fixed top-0 left-0 lg:left-280 right-0 h-16 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 z-40">
       <div className="flex items-center justify-between h-full px-4 lg:px-6">
-        <div className="flex items-center space-x-4 lg:hidden">
-          <AppIconAvatar iconName="Home" size="small" className="rounded-lg" />
-          <Text type="h1" className="text-lg font-bold text-gray-900 dark:text-white">NeighborNet</Text>
+        <div className="flex items-center space-x-4">
+          <Button 
+            onClick={onToggle}
+            className="lg:hidden p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
+            aria-label="Toggle sidebar"
+          >
+            <Icon name="Menu" className="w-6 h-6" />
+          </Button>
+          
+          <div className="flex items-center space-x-3">
+            <AppIconAvatar iconName="Home" size="small" className="rounded-lg" />
+            <Text type="h1" className="text-lg font-bold text-gray-900 dark:text-white">NeighborNet</Text>
+          </div>
         </div>
 
         <div className="flex-1 max-w-md mx-4 hidden md:block">
