@@ -1,5 +1,5 @@
 import { Text } from '../atoms/Text'
-import Icon from '../Icon'
+import Icon from '../atoms/Icon'
 
 export const Avatar = ({ 
   initials, 
@@ -52,16 +52,14 @@ export const AppIconAvatar = ({
     <div 
       className={`
         ${sizeClasses[size]} 
-        bg-primary-500 text-white rounded-lg 
+bg-primary-500 text-white rounded-lg 
         flex items-center justify-center
         ${className}
-`}
+      `}
       {...props}
     >
       <Icon name={iconName} className={`${iconSizes[size]} text-white`} />
     </div>
   )
 }
-}
-
 export default Avatar
