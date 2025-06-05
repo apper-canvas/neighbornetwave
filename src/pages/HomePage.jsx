@@ -176,15 +176,15 @@ function Home() {
         setLoading(false)
       }
     }
-    loadData()
+loadData()
   }, [])
-const renderContent = () => {
+
+  const renderContent = () => {
     switch (activeSection) {
       case 'home':
         return (
-          <CommunityFeed 
-            posts={posts}
-            setPosts={setPosts}
+          <CommunityFeed
+posts={posts}
             setPosts={setPosts}
             loading={loading}
             error={error}
@@ -354,16 +354,16 @@ const renderContent = () => {
       case 'messages':
         return <PlaceholderSection title="Direct Messaging" description="Chat with neighbors and committee members. Send images, files, and create group conversations." icon="MessageCircle" />
       case 'visitors':
-        return <PlaceholderSection title="Visitor Management" description="Digital visitor tracking and pre-approval system. Enhanced security for your community." icon="UserCheck" />
+return <PlaceholderSection title="Visitor Management" description="Digital visitor tracking and pre-approval system. Enhanced security for your community." icon="UserCheck" />
       case 'finance':
-case 'documents':
+        return <PlaceholderSection title="Finance Management" description="Track society finances, dues, and expenses. Complete financial transparency for residents." icon="DollarSign" />
+      case 'documents':
         return <PlaceholderSection title="Document Center" description="Access important society documents, meeting minutes, and official records securely." icon="FileText" />
       case 'polls':
         return <PlaceholderSection title="Community Polls" description="Participate in society decisions through digital voting and surveys." icon="BarChart3" />
       default:
         return <CommunityFeed posts={posts} setPosts={setPosts} loading={loading} error={error} />
     }
-  }
   }
 
   return (
