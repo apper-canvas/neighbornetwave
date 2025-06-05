@@ -136,6 +136,8 @@ export const CommunityFeed = ({ posts, setPosts, loading, error }) => {
         onClose={() => setShowCreateModal(false)}
         onPostCreated={handlePostCreated}
       />
-    </div>
+</div>
   )
 }
+
+export default CommunityFeed

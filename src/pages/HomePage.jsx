@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { toast } from 'react-toastify'
-import CommunityFeed from '../components/organisms/CommunityFeed'
+import { CommunityFeed } from '../components/organisms/CommunityFeed'
 import ApperIcon from '../components/ApperIcon'
 import * as postService from '../services/api/postService'
 import * as noticeService from '../services/api/noticeService'
