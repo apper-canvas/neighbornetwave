@@ -1,0 +1,221 @@
+[
+  {
+    "id": "1",
+    "content": "Beautiful sunset view from the terrace today! The community garden looks absolutely stunning in this golden light. Nothing beats the peaceful evening here at Sunrise Heights.",
+    "images": [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&h=400&fit=crop"
+    ],
+    "authorName": "Priya Sharma",
+    "authorFlat": "B-301",
+    "category": "general",
+    "likes": 24,
+    "comments": [
+      {
+        "content": "Absolutely gorgeous! Thanks for sharing this beautiful moment.",
+        "author": "Raj Patel",
+        "createdAt": "2024-01-15T18:30:00Z"
+      },
+      {
+        "content": "The community garden has really flourished this year. Great capture!",
+        "author": "Meera Singh",
+        "createdAt": "2024-01-15T19:15:00Z"
+      }
+    ],
+    "createdAt": "2024-01-15T18:00:00Z"
+  },
+  {
+    "id": "2",
+    "content": "Selling a barely used exercise bike in excellent condition. Perfect for home workouts! Originally bought for ₹25,000, selling for ₹15,000. Interested neighbors can contact me directly.",
+    "images": [
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop"
+    ],
+    "authorName": "Amit Kumar",
+    "authorFlat": "A-205",
+    "category": "marketplace",
+    "likes": 8,
+    "comments": [
+      {
+        "content": "Is this still available? I'm very interested!",
+        "author": "Neha Gupta",
+        "createdAt": "2024-01-15T14:20:00Z"
+      }
+    ],
+    "createdAt": "2024-01-15T12:30:00Z"
+  },
+  {
+    "id": "3",
+    "content": "Found a pair of reading glasses near the main gate this morning. They look prescription made. If anyone has lost them, please reach out with a description and I'll return them.",
+    "images": [],
+    "authorName": "Dr. Sarah Johnson",
+    "authorFlat": "C-102",
+    "category": "lost-found",
+    "likes": 12,
+    "comments": [
+      {
+        "content": "You're so thoughtful, Dr. Johnson! Hope the owner finds them.",
+        "author": "Ravi Mehta",
+        "createdAt": "2024-01-15T10:45:00Z"
+      }
+    ],
+    "createdAt": "2024-01-15T09:15:00Z"
+  },
+  {
+    "id": "4",
+    "content": "Highly recommend 'Green Thumb Nursery' for anyone looking to add plants to their balcony. Amazing variety, reasonable prices, and they even provide maintenance tips. Just got some beautiful succulents from there!",
+    "images": [
+      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?w=600&h=400&fit=crop"
+    ],
+    "authorName": "Kavya Reddy",
+    "authorFlat": "B-504",
+    "category": "recommendations",
+    "likes": 18,
+    "comments": [
+      {
+        "content": "Thanks for the recommendation! I've been looking for a good nursery.",
+        "author": "Arun Joshi",
+        "createdAt": "2024-01-14T16:30:00Z"
+      },
+      {
+        "content": "Green Thumb is fantastic! Got my entire balcony garden from there.",
+        "author": "Pooja Nair",
+        "createdAt": "2024-01-14T17:00:00Z"
+      }
+    ],
+    "createdAt": "2024-01-14T15:45:00Z"
+  },
+  {
+    "id": "5",
+    "content": "Community cricket match this Sunday at 6 AM in the society ground! We need a few more players. All skill levels welcome. Let's get active and have some fun together!",
+    "images": [
+      "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&h=400&fit=crop"
+    ],
+    "authorName": "Rohit Verma",
+    "authorFlat": "A-403",
+    "category": "general",
+    "likes": 15,
+    "comments": [
+      {
+        "content": "Count me in! Haven't played in ages but excited to join.",
+        "author": "Vikram Singh",
+        "createdAt": "2024-01-14T11:20:00Z"
+      },
+      {
+        "content": "Can we make it 7 AM instead? 6 seems too early for Sunday 😅",
+        "author": "Arjun Kapoor",
+        "createdAt": "2024-01-14T12:15:00Z"
+      }
+    ],
+    "createdAt": "2024-01-14T10:30:00Z"
+  },
+  {
+    "id": "6",
+    "content": "Lost my black cat 'Milo' yesterday evening. He's very friendly, has white paws, and usually responds to his name. If anyone spots him around the society, please let me know immediately. I'm really worried!",
+    "images": [
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&h=400&fit=crop"
+    ],
+    "authorName": "Lisa Chen",
+    "authorFlat": "C-204",
+    "category": "lost-found",
+    "likes": 32,
+    "comments": [
+      {
+        "content": "Oh no! I'll keep an eye out. Have you checked the parking garage?",
+        "author": "David Park",
+        "createdAt": "2024-01-13T20:45:00Z"
+      },
+      {
+        "content": "Sharing this in our WhatsApp group too. Hope Milo comes home soon! 🐱",
+        "author": "Maria Santos",
+        "createdAt": "2024-01-13T21:00:00Z"
+      },
+      {
+        "content": "I think I saw a black cat near building D this morning. Will check again!",
+        "author": "Ahmed Hassan",
+        "createdAt": "2024-01-13T21:30:00Z"
+      }
+    ],
+    "createdAt": "2024-01-13T19:15:00Z"
+  },
+  {
+    "id": "7",
+    "content": "The new Mediterranean restaurant 'Olive Garden Bistro' near the main road is absolutely incredible! Their hummus platter and grilled lamb are to die for. Perfect for weekend dining. Highly recommended!",
+    "images": [
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop"
+    ],
+    "authorName": "Elena Rodriguez",
+    "authorFlat": "B-102",
+    "category": "recommendations",
+    "likes": 21,
+    "comments": [
+      {
+        "content": "Thanks Elena! Adding this to our date night list 😍",
+        "author": "Sameer and Priya",
+        "createdAt": "2024-01-13T14:30:00Z"
+      }
+    ],
+    "createdAt": "2024-01-13T13:20:00Z"
+  },
+  {
+    "id": "8",
+    "content": "Selling my daughter's barely used study table and chair set. She's outgrown it and it's perfect for kids aged 5-12. Excellent condition, adjustable height. Originally ₹8,000, selling for ₹4,500.",
+    "images": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=400&fit=crop"
+    ],
+    "authorName": "Sunita Agarwal",
+    "authorFlat": "A-301",
+    "category": "marketplace",
+    "likes": 6,
+    "comments": [
+      {
+        "content": "Perfect timing! My son just started school. Is it still available?",
+        "author": "Ramesh Kumar",
+        "createdAt": "2024-01-12T16:45:00Z"
+      }
+    ],
+    "createdAt": "2024-01-12T15:30:00Z"
+  },
+  {
+    "id": "9",
+    "content": "Morning yoga sessions are starting next week in the community hall! Every Tuesday and Thursday at 7 AM. Bring your own mat. All levels welcome. Let's start the year with wellness and mindfulness together!",
+    "images": [
+      "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop"
+    ],
+    "authorName": "Yoga Instructor Maya",
+    "authorFlat": "Fitness Center",
+    "category": "general",
+    "likes": 28,
+    "comments": [
+      {
+        "content": "Finally! I've been wanting to start yoga. Count me in! 🧘‍♀️",
+        "author": "Anjali Mishra",
+        "createdAt": "2024-01-12T11:20:00Z"
+      },
+      {
+        "content": "Is there any fees for joining? And do we need prior experience?",
+        "author": "Ravi Kumar",
+        "createdAt": "2024-01-12T12:00:00Z"
+      }
+    ],
+    "createdAt": "2024-01-12T10:15:00Z"
+  },
+  {
+    "id": "10",
+    "content": "Can anyone recommend a reliable house cleaning service? Looking for weekly deep cleaning. Previous service wasn't satisfactory. Prefer someone who's already working in our society for references.",
+    "images": [],
+    "authorName": "Michael Brown",
+    "authorFlat": "C-405",
+    "category": "recommendations",
+    "likes": 9,
+    "comments": [
+      {
+        "content": "I'll DM you details of our cleaning lady. She's been with us for 2 years, very trustworthy!",
+        "author": "Sneha Jain",
+        "createdAt": "2024-01-11T14:45:00Z"
+      }
+    ],
+    "createdAt": "2024-01-11T13:30:00Z"
+  }
+]

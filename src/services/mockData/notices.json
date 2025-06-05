@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "title": "Water Supply Maintenance - Saturday, January 20th",
+    "content": "Dear Residents, We will be conducting essential water tank cleaning and pipeline maintenance on Saturday, January 20th from 10:00 AM to 4:00 PM. Water supply will be temporarily interrupted during this period. Please store adequate water in advance. We apologize for any inconvenience caused.",
+    "category": "maintenance",
+    "importance": "high",
+    "attachments": ["maintenance_schedule.pdf"],
+    "postedBy": "Maintenance Team",
+    "createdAt": "2024-01-15T09:00:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Monthly Society Meeting - January 25th",
+    "content": "Monthly General Body Meeting scheduled for January 25th at 7:00 PM in the Community Hall. Agenda includes budget review, upcoming projects discussion, and resident feedback session. All residents are encouraged to attend.",
+    "category": "meetings",
+    "importance": "medium",
+    "attachments": ["meeting_agenda.pdf"],
+    "postedBy": "Secretary - Rajesh Gupta",
+    "createdAt": "2024-01-14T11:30:00Z"
+  },
+  {
+    "id": "3",
+    "title": "New Visitor Entry Policy - Effective Immediately",
+    "content": "To enhance security, all visitors must now register at the main gate with valid ID proof. Residents will receive SMS notifications for visitor arrivals. Pre-approval through the society app is encouraged for frequent visitors. Security guards have been briefed on the new protocol.",
+    "category": "rules",
+    "importance": "high",
+    "attachments": [],
+    "postedBy": "Security Committee",
+    "createdAt": "2024-01-13T16:45:00Z"
+  },
+  {
+    "id": "4",
+    "title": "Holi Festival Celebration - March 8th",
+    "content": "Join us for the annual Holi celebration on March 8th at 4:00 PM in the society garden. Organic colors will be provided. Refreshments and traditional sweets will be served. All age groups welcome. Let's celebrate the festival of colors together!",
+    "category": "general",
+    "importance": "low",
+    "attachments": ["holi_celebration_flyer.jpg"],
+    "postedBy": "Cultural Committee",
+    "createdAt": "2024-01-12T14:20:00Z"
+  },
+  {
+    "id": "5",
+    "title": "Elevator Maintenance - Building A & C",
+    "content": "Annual maintenance of elevators in Building A and Building C will be conducted on January 22nd and 23rd respectively. Each elevator will be out of service for approximately 6 hours. Alternative arrangements and timings will be posted at each building.",
+    "category": "maintenance",
+    "importance": "medium",
+    "attachments": [],
+    "postedBy": "Maintenance Team",
+    "createdAt": "2024-01-11T10:15:00Z"
+  },
+  {
+    "id": "6",
+    "title": "Parking Rules Reminder",
+    "content": "Reminder to all residents: Please park only in designated slots. Unauthorized parking in visitor areas, fire lanes, or blocking other vehicles will result in towing at owner's expense. Guest parking is limited to 4 hours maximum.",
+    "category": "rules",
+    "importance": "medium",
+    "attachments": ["parking_map.pdf"],
+    "postedBy": "Management Committee",
+    "createdAt": "2024-01-10T15:30:00Z"
+  },
+  {
+    "id": "7",
+    "title": "Gym Equipment Upgrade Complete",
+    "content": "We're excited to announce that our community gym has been upgraded with new equipment including treadmills, cross-trainers, and strength training machines. New operating hours: 5:00 AM to 11:00 PM. Membership registration is open at the management office.",
+    "category": "general",
+    "importance": "low",
+    "attachments": ["gym_equipment_list.pdf"],
+    "postedBy": "Recreation Committee",
+    "createdAt": "2024-01-09T12:45:00Z"
+  },
+  {
+    "id": "8",
+    "title": "Internet Connectivity Upgrade",
+    "content": "Our society is upgrading to fiber optic internet connectivity. Installation will begin in Building B on January 18th and progressively cover all buildings. Residents can expect faster and more reliable internet service. Contact management for connection details.",
+    "category": "general",
+    "importance": "medium",
+    "attachments": [],
+    "postedBy": "Technical Committee",
+    "createdAt": "2024-01-08T13:20:00Z"
+  },
+  {
+    "id": "9",
+    "title": "Pest Control Treatment - This Weekend",
+    "content": "Professional pest control treatment will be conducted in common areas this weekend (January 20-21). Treatment includes gardens, basement, stairwells, and garbage collection areas. Residents are advised to keep windows closed and avoid common areas during treatment hours (6 AM - 10 AM).",
+    "category": "maintenance",
+    "importance": "high",
+    "attachments": ["pest_control_safety.pdf"],
+    "postedBy": "Maintenance Team",
+    "createdAt": "2024-01-07T11:10:00Z"
+  },
+  {
+    "id": "10",
+    "title": "Society Annual Day - February 14th",
+    "content": "Save the date! Our Society Annual Day celebration will be held on February 14th starting 6:00 PM. Cultural performances, awards ceremony, and dinner included. Registration for cultural activities is now open. Contact the Cultural Committee for participation details.",
+    "category": "general",
+    "importance": "low",
+    "attachments": ["annual_day_registration.pdf"],
+    "postedBy": "Cultural Committee",
+    "createdAt": "2024-01-06T16:25:00Z"
+  }
+]
