@@ -360,10 +360,10 @@ function Home() {
         return <PlaceholderSection title="Financial Portal" description="Track dues, expenses, and society finances. View reports and manage payments online." icon="DollarSign" />
       case 'documents':
         return <PlaceholderSection title="Document Center" description="Access important society documents, meeting minutes, and official records securely." icon="FileText" />
-      case 'polls':
+case 'polls':
         return <PlaceholderSection title="Community Polls" description="Participate in society decisions through digital voting and surveys." icon="BarChart3" />
-default:
-        return <CommunityFeed posts={posts} setPosts={setPosts} loading={loading} error={error} />
+      default:
+        return <MainFeature posts={posts} setPosts={setPosts} loading={loading} error={error} />
     }
   }
 
