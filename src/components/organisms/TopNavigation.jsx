@@ -3,7 +3,6 @@ import { Icon } from '../atoms/Icon'
 import { Button } from '../atoms/Button'
 import { Text } from '../atoms/Text'
 import { AppIconAvatar, Avatar } from '../molecules/Avatar'
-import { SearchInput } from '../molecules/SearchInput'
 
 export const TopNavigation = ({ isOpen, onToggle }) => {
   return (
@@ -22,13 +21,6 @@ export const TopNavigation = ({ isOpen, onToggle }) => {
             <AppIconAvatar iconName="Home" size="small" className="rounded-lg" />
             <Text type="h1" className="text-lg font-bold text-gray-900 dark:text-white">NeighborNet</Text>
           </div>
-        </div>
-
-        <div className="flex-1 max-w-md mx-4 hidden md:block">
-          <SearchInput
-            placeholder="Search community..."
-            onFocus={() => toast.info("Enhanced search coming soon!")}
-          />
         </div>
 
         <div className="flex items-center space-x-3">
